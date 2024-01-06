@@ -1,19 +1,139 @@
-@media all and (max-width: 1199px){
 
+
+@media all and (min-width:1400px){
+    .card_progress {
+        text-align: center;
+        width: inherit;
+    }
+    .card_progress img {
+        width:inherit;
+    }
 }
-
-@media all and (max-width: 991px){
-	
+@media all and (max-width:1100px){
+    .sidebar-area {
+        position: absolute;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        left: -100%;
+        z-index: 99;
+    }
+    .main-content-area {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%; 
+    }
+    .bars_icon,
+    .sidebar_close { 
+        display: block;
+    }
 }
-
-@media all and (max-width: 767px){
-	
+@media all and (max-width:991px){
+    .single-card {  
+        -webkit-box-flex: 0;  
+            -ms-flex: 0 0 48%;  
+                flex: 0 0 48%; 
+        margin-bottom: 18px;
+    } 
+    .search-field-box { 
+        left: -172px; 
+    }
+    .card_text h2 {
+        font-size: 21px; 
+    }
+    .card_img img {
+        width: 42px;
+    } 
+    .sidebar-area { 
+        overflow: hidden;
+        overflow-y: scroll;
+    }
 }
-
-@media all and (max-width: 575px){
-	
+@media all and (max-width:767px){
+    .single-card p { 
+        font-size: 16px; 
+        margin-bottom: 0;
+    }
+    .card_img img {
+        width: 110px;
+    }
+    .table tbody tr, .table thead tr {
+        border-bottom: 1.5px solid #DFE0EB;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .single-card h2 { 
+        font-size: 24px; 
+    }
+    .account-status, .receipt-box {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%; 
+        margin-bottom: 18px;
+    }
+    .table-area {
+        width: 100%;
+        overflow: scroll;
+    }
+    .table tbody tr td {
+        padding: 8px 13px;
+    }
+    .video {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+    }
+    .video { 
+        margin-bottom: 18px;
+    }
+    .search-field-box { 
+        display: none;
+    }
+    .card_progress_mb{
+        margin-top: 20px;
+    }
+    .last_row .col-md-6,
+    .last_row .col-md-3 {
+        margin-bottom: 20px;
+    }
+    .header-title h3 { 
+        font-size: 20px;
+        line-height: 18px; 
+    }
+    .card_text h2 {
+        font-size: 26px; 
+    }
 }
-
-@media all and (max-width: 450px){
-	
+@media all and (max-width:576px){
+    .header-user-img a span {
+        display: none;
+    }
+    .account-card-title { 
+        padding: 20px 32px;
+    }
+    .single-card { 
+        padding: 16px 0; 
+    }
+    .video video {
+        width: 298px;
+    }
+    .card_session_btn { 
+        -webkit-box-orient: vertical; 
+        -webkit-box-direction: normal; 
+            -ms-flex-direction: column; 
+                flex-direction: column;
+        gap: 10px;
+    }
+}
+@media all and (max-width:412px){
+    .login-main {
+        background: #fff; 
+    }
+    .login-area { 
+        border: 1px solid #fff; 
+    } 
 }
