@@ -8,6 +8,21 @@
     .card_progress img {
         width:inherit;
     }
+
+}
+@media all and (max-width:1400px){
+    .content_single { 
+        flex: 0 0 27%;
+    }
+    .conten_row { 
+        gap: 0 80px; 
+    }
+    .single_ul li { 
+        margin-bottom: 24px;
+    }
+    .single_ul li p { 
+        font-size: 20px; 
+    }
 }
 @media all and (max-width:1100px){
     .sidebar-area {
@@ -35,6 +50,13 @@
                 flex: 0 0 48%; 
         margin-bottom: 18px;
     } 
+    .content_single {
+        flex: 0 0 48%;
+    }
+    .conten_row {
+        gap: 0;
+        justify-content: space-between;
+    }
     .search-field-box { 
         left: -172px; 
     }
@@ -112,8 +134,40 @@
     .header-user-img a span {
         display: none;
     }
+    .content_single {
+        flex: 0 0 100%;
+    }
+    .single_ul li p {
+        font-size: 16px;
+    }
+    .single_ul li p {
+        font-size: 16px;
+    }
+    .content_single > p { 
+        font-size: 16px; 
+    }
+    .content_single > p span {
+        font-size: 40px;
+    }
     .account-card-title { 
         padding: 20px 32px;
+    }
+    .btn_purchase { 
+        font-size: 16px; 
+        margin-top: 10px; 
+    }
+    .menu ul li a { 
+        font-size: 16px; 
+    }
+    .menu ul li a img {
+        width: 22px;
+    }
+    .sidebar_user a { 
+        font-size: 16px;  
+        padding: 6px 18px; 
+    }
+    .content_single {
+        margin-bottom: 25px; 
     }
     .single-card { 
         padding: 16px 0; 
