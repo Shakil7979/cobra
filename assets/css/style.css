@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&display=swap');
  /* Default CSS */
  html, body, div, span, object, iframe,
  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -614,403 +615,100 @@
 	 margin-top: 30px;
  }
  
- .wave {
-	 -webkit-animation-name: wave-animation;
-			 animation-name: wave-animation;
-	 -webkit-animation-duration: 2.5s;
-			 animation-duration: 2.5s;
-	 -webkit-animation-iteration-count: infinite;
-			 animation-iteration-count: infinite;
-	 -webkit-transform-origin: 70% 70%;
-		 -ms-transform-origin: 70% 70%;
-			 transform-origin: 70% 70%;
-	 display: inline-block;
-	 font-size: 20px !important;
- }
-   
-   @-webkit-keyframes wave-animation {
-	   0% { -webkit-transform: rotate( 0.0deg); transform: rotate( 0.0deg) }
-	  10% { -webkit-transform: rotate(14.0deg); transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-	  20% { -webkit-transform: rotate(-8.0deg); transform: rotate(-8.0deg) }
-	  30% { -webkit-transform: rotate(14.0deg); transform: rotate(14.0deg) }
-	  40% { -webkit-transform: rotate(-4.0deg); transform: rotate(-4.0deg) }
-	  50% { -webkit-transform: rotate(10.0deg); transform: rotate(10.0deg) }
-	  60% { -webkit-transform: rotate( 0.0deg); transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-	 100% { -webkit-transform: rotate( 0.0deg); transform: rotate( 0.0deg) }
-   }
-   
-   @keyframes wave-animation {
-	   0% { -webkit-transform: rotate( 0.0deg); transform: rotate( 0.0deg) }
-	  10% { -webkit-transform: rotate(14.0deg); transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-	  20% { -webkit-transform: rotate(-8.0deg); transform: rotate(-8.0deg) }
-	  30% { -webkit-transform: rotate(14.0deg); transform: rotate(14.0deg) }
-	  40% { -webkit-transform: rotate(-4.0deg); transform: rotate(-4.0deg) }
-	  50% { -webkit-transform: rotate(10.0deg); transform: rotate(10.0deg) }
-	  60% { -webkit-transform: rotate( 0.0deg); transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-	 100% { -webkit-transform: rotate( 0.0deg); transform: rotate( 0.0deg) }
-   }
-   
- 
- 
- 
- 
- 
- 
- /* Main Content css */
- 
- .card-title {
-	 display: -webkit-box;
-	 display: -ms-flexbox;
-	 display: flex;
-	 -webkit-box-pack: justify;
-		 -ms-flex-pack: justify;
-			 justify-content: space-between;
-	 -webkit-box-align: center;
-		 -ms-flex-align: center;
-			 align-items: center;
- }
- 
- .card-title h4 {
-	 font-size: 16px;
-	 font-weight: 700;
- }
- 
- .card-content {
-	 display: -webkit-box;
-	 display: -ms-flexbox;
-	 display: flex;
-	 -webkit-box-align: center;
-		 -ms-flex-align: center;
-			 align-items: center;
-	 -webkit-box-pack: justify;
-		 -ms-flex-pack: justify;
-			 justify-content: space-between;
- }
- 
- .card_text h2 {
-	 font-size: 35px;
-	 font-weight: 700;
-	 margin: 14px 0 32px 0;
- }
- 
- .card_text span {
-	 display: inline-block;
-	 font-size: 11px;
-	 background: #0fee851f;
-	 color: #0fee85b2;
-	 padding: 1px 3px;
-	 border-radius: 5px;
- }
- 
- .main_content .card {
-	 height: 100%;
-	 border: none;
- }
- 
- .card_progress {
-	 width: 100%;
-	 height: 100%;
- }
- 
- .card_progress img {
-	 width: 100%; 
- }
- 
- .card_text_red {
-	 background: #ff00001f !important;
-	 color: #ae1818 !important;
- }
- 
- .card_brouser img {
-	 width: 20px;
- }
- 
- .card_brouser {
-	 display: -webkit-box;
-	 display: -ms-flexbox;
-	 display: flex;
-	 -webkit-box-align: center;
-		 -ms-flex-align: center;
-			 align-items: center;
-	 gap: 8px;
- } 
- 
- .card-top-title {
-	 display: -webkit-box;
-	 display: -ms-flexbox;
-	 display: flex; 
-	 -webkit-box-pack: justify; 
-		 -ms-flex-pack: justify; 
-			 justify-content: space-between;
-	 width: 100%;
- }
- 
- .top_browser_title h4 {
-	 font-size: 16px;
-	 font-weight: 700;
- }
- 
- .top_browser_title p {
-	 font-size: 10px;
-	 color: #9C9C9C;
- }
- 
- .card_content_top {
-	 width: 100%;
-	 background: #F7F8FA;
-	 border-radius: 5px;
-	 padding: 5px 10px;
- }
- 
- .card_brouser_char h3 {
-	 font-size: 22px;
-	 font-weight: 700;
- }
- 
- .card_brouser_char h3 span{
-	 color: #9C9C9C;
-	 font-size: 12px;
- 
- }
- 
- .card_brouser_char {
-	 display: -webkit-box;
-	 display: -ms-flexbox;
-	 display: flex;
-	 -webkit-box-pack: justify;
-		 -ms-flex-pack: justify;
-			 justify-content: space-between;
-	 margin-top: 10px;
- }
- 
- .card-content.card_mb {
-	 margin-bottom: 10px;
- }
- 
- .session_select select {
-	 background: transparent;
-	 border: 1px solid #ddd;
-	 padding: 3px 10px;
-	 border-radius: 5px;
-	 color: #9C9C9C;
- }
- 
- .card_session_btn button {
-	 background: #AAC09B;
-	 border: none;
-	 padding: 8px 20px;
-	 border-radius: 5px;
-	 color: #fff;
- }
- 
- .card_session_btn {
-	 display: -webkit-box;
-	 display: -ms-flexbox;
-	 display: flex;
-	 -webkit-box-pack: justify;
-		 -ms-flex-pack: justify;
-			 justify-content: space-between;
-	 margin-top: 15px;
-	 -webkit-box-align: center;
-		 -ms-flex-align: center;
-			 align-items: center;
- }
- 
- .card_session_btn p {
-	 font-weight: 700;
-	 font-size: 14px;
- }
- 
- .card-top-title > p {
-	 font-size: 12px;
-	 color: #9C9C9C;
- }
- .max_count {
-	 position: absolute;
-	 right: 0;
-	 top: -18px;
-	 font-size: 10px;
-	 color: #9C9C9C;
- }
- 
- 
- /* progress bars css  */
- .cssProgress {
-	 width: 100%;
-	 margin-bottom: 20px;
-	 position: relative; 
-   }
-   .cssProgress .progress1,
-   .cssProgress .progress2,
-   .cssProgress .progress3 {
-	 width: 100%;
-	 font-family: "Roboto", sans-serif;
-	 margin-top: 44px;
-	 overflow: hidden;
-   }
-   .cssProgress .cssProgress-bar {
-	 display: block;
-	 float: left;
-	 width: 0%;
-	 height: 100%;
-	 background: #936ab5;
-	 -webkit-box-shadow: inset 0px -1px 2px rgba(0, 0, 0, 0.1);
-			 box-shadow: inset 0px -1px 2px rgba(0, 0, 0, 0.1);
-	 -webkit-transition: width 0.8s ease-in-out;
-	 -o-transition: width 0.8s ease-in-out;
-	 transition: width 0.8s ease-in-out;
- }
-   .cssProgress .cssProgress-label {
-	 position: absolute;
-	 overflow: hidden;
-	 left: 0px;
-	 /* right: 0px; */
-	 color: rgba(0, 0, 0, 0.6);
-	 font-size: 0.7em;
-	 text-align: center;
-	 text-shadow: 0px 1px rgba(0, 0, 0, 0.3);
-	 top: -25px;
-	 z-index: 99999;
-	 font-size: 25px;
-	 font-weight: 700;
- }
-   .cssProgress .cssProgress-info {
-	 background-color: #9575cd !important;
-   }
-   .cssProgress .progress2 .cssProgress-bar {
-	 background-color: #acab4a !important;
-   }
-   .cssProgress .cssProgress-danger {
-	 background-color: #ef5350 !important;
-   }
-   .cssProgress .cssProgress-success {
-	 background-color: #66bb6a !important;
-   }
-   .cssProgress .cssProgress-warning {
-	 background-color: #ffb74d !important;
-   }
-   .cssProgress .cssProgress-right {
-	 float: right !important;
-   }
-   .cssProgress .cssProgress-label-left {
-	 margin-left: 10px;
-	 text-align: left !important;
-   }
-   .cssProgress .cssProgress-label-right {
-	 margin-right: 10px;
-	 text-align: right !important;
-   }
-   .cssProgress .cssProgress-label2 {
-	 display: block;
-	 margin: 2px 0;
-	 padding: 0 8px;
-	 font-size: 0.8em;
-   }
-   .cssProgress .cssProgress-label2.cssProgress-label2-right {
-	 text-align: right;
-   }
-   .cssProgress .cssProgress-label2.cssProgress-label2-center {
-	 text-align: center;
-   }
-   .cssProgress .cssProgress-stripes,
-   .cssProgress .cssProgress-active,
-   .cssProgress .cssProgress-active-right {
-	 background-image: -o-linear-gradient(135deg, rgba(255, 255, 255, 0.125) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.125) 50%, rgba(255, 255, 255, 0.125) 75%, transparent 75%, transparent);
-	 background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.125) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.125) 50%, rgba(255, 255, 255, 0.125) 75%, transparent 75%, transparent);
-	 background-size: 35px 35px;
-   }
-   .cssProgress .cssProgress-active {
-	 -webkit-animation: cssProgressActive 2s linear infinite;
-	 animation: cssProgressActive 2s linear infinite;
-   }
-   .cssProgress .cssProgress-active-right {
-	 -webkit-animation: cssProgressActiveRight 2s linear infinite;
-	 animation: cssProgressActiveRight 2s linear infinite;
-   }
-   @-webkit-keyframes cssProgressActive {
-	 0% {
-	   background-position: 0 0;
-	 }
-	 100% {
-	   background-position: 35px 35px;
-	 }
-   }
-   @keyframes cssProgressActive {
-	 0% {
-	   background-position: 0 0;
-	 }
-	 100% {
-	   background-position: 35px 35px;
-	 }
-   }
-   @-webkit-keyframes cssProgressActiveRight {
-	 0% {
-	   background-position: 0 0;
-	 }
-	 100% {
-	   background-position: -35px -35px;
-	 }
-   }
-   @keyframes cssProgressActiveRight {
-	 0% {
-	   background-position: 0 0;
-	 }
-	 100% {
-	   background-position: -35px -35px;
-	 }
-   }
-   
-   /* -----------------------------------------------------
-	   Progress Bar 1
-   -------------------------------------------------------- */
-   .progress1 {
-	 background-color: #eee;
-	 -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.2);
-			 box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.2);
-   }
-   .progress1 .cssProgress-bar {
-	 height: 6px;
-	 border-radius: 9px;
- }
-   .progress1 .cssProgress-label {
-	 line-height: 18px;
-   }
-   
-   /* -----------------------------------------------------
-	   Progress Bar 2
-   -------------------------------------------------------- */
-   .progress2 {
-	 background-color: #eee;
-	 border-radius: 9px;
-	 -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.2);
-			 box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.2);
-   }
- 
-   .progress2 .cssProgress-bar {
-	 height: 6px;
-	 border-radius: 9px;
- }
-   .progress2 .cssProgress-label {
-	 line-height: 18px;
-   }
-   
-   /* -----------------------------------------------------
-	   Progress Bar 3
-   -------------------------------------------------------- */
-   .progress3 {
-	 width: auto !important;
-	 padding: 4px;
-	 background-color: rgba(0, 0, 0, 0.1);
-	 -webkit-box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.2);
-			 box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.2);
-	 border-radius: 3px;
-   }
-   .progress3 .cssProgress-bar {
-	 height: 16px;
-	 border-radius: 3px;
-   }
-   .progress3 .cssProgress-label {
-	 line-height: 16px;
-   }
-   
-   
+
+ /* Dashboad CSS  */
+
+ .single_dasbord_count {
+	border-radius: 4.997px;
+	background: #1C1C1C;
+	padding: 32px 34px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.dasbord_cont h3 {
+	color: var(--Dark-Version-Surface-Neutral, #FFF);
+	font-family: 'DM Sans', sans-serif;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.dasbord_cont p {
+	color: var(--Dark-Version-Surface-Neutral-2, #ABADBF);
+	font-family: 'DM Sans', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.dasbord_cont {
+	flex: 0 0 62%;
+	text-align: center;
+}
+
+.chart_1_box{
+	margin: 41px 0;
+}
+
+.chart_card {
+	border-radius: 4.997px;
+	background: #131313;
+	padding: 25px 38px;
+	height: 100%;
+}
+
+.chart_2 img {
+	width: 100%;
+}
+
+.chart_1_box{
+	margin: 20px 0;
+}
+
+.chart_1 img {
+	width: 100%;
+}
+
+.chart_card h3 {
+	color: var(--Dark-Version-Surface-Neutral, #FFF);
+	font-family: 'DM Sans', sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	margin-bottom: 37px;
+}
+
+.chart_card ul li b {
+	color: var(--Dark-Version-Surface-Neutral, #FFF);
+	font-family: 'DM Sans', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	flex: 0 0 104px;
+}
+
+.chart_card ul li {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	margin-bottom: 12px;
+}
+
+.chart_card ul li p {
+	color: var(--Dark-Version-Surface-Neutral-2, #ABADBF);
+	font-family: 'DM Sans', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+
+
+/* font-family: 'DM Sans', sans-serif; */

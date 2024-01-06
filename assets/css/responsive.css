@@ -10,6 +10,17 @@
     }
 
 }
+@media all and (max-width:1550px){
+    .dasbord_cont h3 { 
+        font-size: 24px; 
+    }
+    .dasbord_cont p { 
+        font-size: 16px; 
+    }
+    .dasbord_cont {
+        flex: 0 0 75%; 
+    }
+}
 @media all and (max-width:1400px){
     .content_single { 
         flex: 0 0 27%;
@@ -50,6 +61,9 @@
                 flex: 0 0 48%; 
         margin-bottom: 18px;
     } 
+    .single_dasbord_count { 
+        margin-bottom: 25px;
+    }
     .content_single {
         flex: 0 0 48%;
     }
@@ -75,6 +89,9 @@
     .single-card p { 
         font-size: 16px; 
         margin-bottom: 0;
+    }
+    .chart_card { 
+        margin-top: 20px;
     }
     .card_img img {
         width: 110px;
@@ -167,7 +184,7 @@
         padding: 6px 18px; 
     }
     .content_single {
-        margin-bottom: 25px; 
+        margin-bottom: 25px;    
     }
     .single-card { 
         padding: 16px 0; 
