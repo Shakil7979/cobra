@@ -104,7 +104,14 @@
                     <div class="row">
                         <div class="col-md-7">
                             <div class="chart_1">
-                                <img src="assets/images/dashboard/chart1.png" alt="">
+                                <div class="chart_card chart_cart_main">
+                                    <h3>Attack's Today</h3>
+                                    <div class="wrapper">
+                                        <canvas id="canvas"></canvas> 
+                                    </div>
+                                </div>
+                                 
+                                <!-- <img src="assets/images/dashboard/chart1.png" alt=""> -->
                             </div>
                         </div>
                         <div class="col-md-5">
@@ -124,7 +131,15 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="chart_2">
-                                <img src="assets/images/dashboard/chart2.png" alt="">
+                                <div class="chart_card chart_cart_main">
+                                    <h3>Network Overload</h3>
+                                    <div class="main_chart" ng-app="app">
+                                        <section class="container2" ng-controller="Controller as ctrl">
+                                            <multi-series-chart data="ctrl.data"></multi-series-chart>
+                                        </section>
+                                    </div>
+                                </div>
+                                <!-- <img src="assets/images/dashboard/chart2.png" alt=""> -->
                             </div>
                         </div>
                     </div>
@@ -146,6 +161,10 @@
     <script src="assets/js/modernizr-3.11.2.min.js"></script>
     <script src="assets/js/jquery.min.js"></script> 
     <script src="assets/js/bootstrap.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highstock/2.1.10/highstock-all.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script> 
     <script src="assets/js/custom.js"></script>
 
 </body>

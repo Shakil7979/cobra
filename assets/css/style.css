@@ -202,6 +202,7 @@
 			 box-sizing: border-box;
 	 overflow-y: scroll;
 	 scrollbar-width: none;
+	 position: relative;
  }
  
  .mobile_overlay_after{
@@ -428,6 +429,9 @@
 
 .message_box {
 	text-align: right;
+	position: fixed;
+	right: 25px;
+	bottom: 25px;
 }
  
 .content_single{
@@ -712,3 +716,114 @@
 
 
 /* font-family: 'DM Sans', sans-serif; */
+
+
+.wrapper {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+  }
+  
+  .canvas {
+	position: relative;
+	width: 100%;
+  }
+  
+  .note {
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 15px 0;
+  }
+  
+  .wrapper a {
+	text-decoration: none;
+	color: #506678;
+	border-bottom: 1px solid rgba(80, 102, 120, 0.25);
+	transition: all 0.35s;
+  }
+  .wrapper a:hover {
+	color: #677f93;
+	border-bottom: 1px solid rgba(149, 76, 233, 0.5);
+  }
+  
+  @media (min-width: 960px) { 
+  
+	.note {
+	  padding: 25px 0;
+	}
+  }
+
+  .chart_cart_main { 
+	padding: 15px; 
+}
+
+  .chart_cart_main h3{ 
+	font-size: 16px; 
+}
+
+
+.main_chart {
+	height: 100%;
+	width: 100%;
+  }
+  .container2 {
+	height: 100%;
+	width: 100%;
+  }
+  multi-series-chart,
+  [multi-series-chart],
+  .multi-series-chart {
+	height: 100%;
+	width: 100%;
+  }
+  multi-series-chart .highcharts-tooltip > text,
+  [multi-series-chart] .highcharts-tooltip > text,
+  .multi-series-chart .highcharts-tooltip > text,
+  multi-series-chart .highcharts-legend-item > text,
+  [multi-series-chart] .highcharts-legend-item > text,
+  .multi-series-chart .highcharts-legend-item > text,
+  multi-series-chart .highcharts-axis-labels > text,
+  [multi-series-chart] .highcharts-axis-labels > text,
+  .multi-series-chart .highcharts-axis-labels > text {
+	color: #999 !important;
+	fill: currentColor !important;
+  }
+  multi-series-chart .multi-series-chart-tooltip,
+  [multi-series-chart] .multi-series-chart-tooltip,
+  .multi-series-chart .multi-series-chart-tooltip {
+	padding: 10px;
+	background-color: #222;
+  }
+  multi-series-chart .multi-series-chart-tooltip > header,
+  [multi-series-chart] .multi-series-chart-tooltip > header,
+  .multi-series-chart .multi-series-chart-tooltip > header {
+	text-align: center;
+	margin-bottom: 5px;
+	color: #999;
+  }
+  multi-series-chart .multi-series-chart-tooltip .point-item,
+  [multi-series-chart] .multi-series-chart-tooltip .point-item,
+  .multi-series-chart .multi-series-chart-tooltip .point-item {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: box;
+	display: flex;
+	padding: 2px 0;
+  }
+  multi-series-chart .multi-series-chart-tooltip .point-item .point-value,
+  [multi-series-chart] .multi-series-chart-tooltip .point-item .point-value,
+  .multi-series-chart .multi-series-chart-tooltip .point-item .point-value {
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-o-box-flex: 1;
+	box-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	text-align: right;
+	margin-left: 15px;
+  }
+  
